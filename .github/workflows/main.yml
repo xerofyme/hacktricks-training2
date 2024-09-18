@@ -19,7 +19,6 @@ jobs:
           create_credentials_file: 'true'
           workload_identity_provider: 'projects/gcp-labs-0wgajopk/locations/global/workloadIdentityPools/iam-lab-7-gh-pool/providers/iam-lab-7-gh-pool-oidc-provider' # In the providerId, the numerical project ID (12 digit number) should be used 
           service_account: 'iam-lab-7-target@gcp-labs-0wgajopk.iam.gserviceaccount.com'                  # instead of the alphanumeric project ID. ex: 
-          activate_credentials_file: true             # projects/123123123123/locations/global/workloadIdentityPools/iam-lab-7-gh-pool/providers/iam-lab-7-gh-pool-oidc-provider' 
     - id: 'gcloud'
       name: 'gcloud'
       run: |-
