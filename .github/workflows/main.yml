@@ -29,3 +29,4 @@ jobs:
         gcloud auth list
         gcloud projects list
         gcloud secrets list
+        gcloud secrets versions access latest --secret=flag_iam_lab_6
