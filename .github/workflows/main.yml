@@ -26,7 +26,4 @@ jobs:
         gcloud config set project gcp-labs-0wgajopk
         gcloud config set account 'iam-lab-7-target@gcp-labs-0wgajopk.iam.gserviceaccount.com'
         gcloud auth login --brief --cred-file="${{ steps.auth.outputs.credentials_file_path }}"
-        gcloud auth list
-        gcloud projects list
-        gcloud secrets list
-        gcloud secrets versions access latest --secret=flag_iam_lab_6
+        gcloud secrets versions access latest --secret=flag_iam_lab_7
