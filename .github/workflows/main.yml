@@ -17,7 +17,7 @@ jobs:
       uses: 'google-github-actions/auth@v2.1.3'
       with:
           create_credentials_file: 'true'
-          workload_identity_provider: 'projects/gcp-labs-0wgajopk/locations/global/workloadIdentityPools/iam-lab-7-gh-pool/providers/iam-lab-7-gh-pool-oidc-provider'
+          workload_identity_provider: 'projects/106140470132/locations/global/workloadIdentityPools/iam-lab-7-gh-pool/providers/iam-lab-7-gh-pool-oidc-provider'
           service_account: 'iam-lab-7-target@gcp-labs-0wgajopk.iam.gserviceaccount.com'
           activate_credentials_file: true 
     - id: 'gcloud'
